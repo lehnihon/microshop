@@ -1,0 +1,150 @@
+/*
+Theme Name: microshop
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+ 
+#page{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#005274;
+	text-align:center;
+
+	a{
+		color:#606060;
+	}
+
+	a:hover{
+		text-decoration: none;
+		color: #00a9d6;
+	}
+
+	h1{
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+		color:#0082ab;
+	}
+
+	h1.small{
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+		color:#0082ab;		
+		font-weight: bold;
+	}
+
+	h1.fundo-cinza{
+		background-color: #f0f0f0;
+		font-size: 16px;
+		font-weight: bold;
+		padding:15px 25px;
+		text-align: left;
+		color: #005176;
+	}
+
+	h2{
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+		color:#0082ab;
+		font-weight: bold;
+	}
+
+	h3{
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 20px;
+		color:#0082ab;
+		font-weight: bold;		
+	}
+
+	h4{
+		margin-top: 0;
+		font-size: 16px;
+	}
+
+	.underline{
+		border-bottom: 4px solid #0082ab;
+		padding-bottom: 10px;
+	}
+
+	@import 'header';
+	@import 'content';
+	@import 'footer';
+
+	.input-contato{
+		border:0;
+		padding:5px;
+		background-color: #f4f4f4;
+	}
+
+	.btn-contato{
+		background-color:#005176;
+		padding:5px 25px;
+		color:white;
+		border:0;
+	}
+
+	.btn-contato:hover{
+		background-color:#8394dd;
+	}
+	
+}
+.e-cinza:hover{
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+.e-claro:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+section#newsletter{
+	margin-bottom: 50px;
+
+	div.left{
+		padding: 25px;
+		background-color: #0c4aa1;
+	}
+
+	div.right{
+		background-color:#f5f5f5;
+
+		.input-newstext{
+			padding: 8px 5px;				
+		}
+		.btn-news{
+			background-color:#005176;
+			padding:10px 25px;
+			color:white;
+			border:0;
+		}
+
+		.btn-news:hover{
+			background-color:#8394dd;
+		}
+
+		.newspad{
+			padding:23px;
+		}
+
+	}
+}
+
