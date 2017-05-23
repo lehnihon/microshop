@@ -50,13 +50,6 @@
 							contato@spacecell.com.br
 						</p>
 					</div>
-					<div class="col-md-2 col-md-offset-1 text-right">
-						<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=spacecell.com.br','SiteLock','width=600,height=600,left=160,top=170');" ><img style="margin-left: 50px" class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/spacecell.com.br" /></a>
-					</div>
-					<div class="col-md-2 text-right">
-					<br>
-						<a target="_blank" href="https://www.google.com/transparencyreport/safebrowsing/diagnostic/?hl=pt-BR#url=www.spacecell.com.br"><img class="img-responsive" alt="Google" title="Google" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/google.jpg"; ?>" /></a>
-					</div>
 				</div>
 			</div><!-- .container -->			
 		</div>

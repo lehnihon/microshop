@@ -26,7 +26,7 @@
 			<div class="row">
 				<div class="col-md-offset-7 col-md-5">
 					<ul class="menu-top">
-						<li class="hide-op"><a href="<?php echo home_url( '/' ).'sobre'; ?>">Sobre a Space Cell</a></li>
+						<li class="hide-op"><a href="<?php echo home_url( '/' ).'sobre'; ?>">Sobre a Microshop</a></li>
 						<li><a href="<?php echo home_url( '/' ).'minha-conta'; ?>">Minha Conta / Cadastre-se</a></li>
 						<li class="hide-op"><a href="<?php echo home_url( '/' ).'contato'; ?>">Contato</a></li>
 					</ul>
