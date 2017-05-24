@@ -18,18 +18,18 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<?php putRevSlider( "banner-index" ) ?>	
+				
 				</div>			
 			</div>
 			<div class="row category">
 				<div class="col-md-4">
-					<?php putRevSlider( "categoria1" ) ?>	
+					
 				</div>
 				<div class="col-md-4">
-					<?php putRevSlider( "categoria2" ) ?>	
+					
 				</div>
 				<div class="col-md-4">
-					<?php putRevSlider( "categoria3" ) ?>	
+					
 				</div>
 			</div>
 		</div>
@@ -59,7 +59,7 @@ get_header(); ?>
 			</div>	
 			<div class="row category">
 				<div class="col-md-12">
-					<?php putRevSlider( "categoria4" ) ?>
+					
 				</div>
 			</div>
 
