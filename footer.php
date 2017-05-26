@@ -2,38 +2,50 @@
 		<div class="footer-content">
 			<div class="container">
 				<div class="row main">
-					<div class="col-md-6 produtos clearfix">
-						<strong>Produtos Space Cell</strong><br><br>
+					<div class="col-md-2">
+						<strong>Nossos Produtos</strong><br><br>
 						<ul>
-							<li><a href="<?php echo home_url( '/' )."categoria/destaques"; ?>">Destaques</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>	
+							<li><a href="<?php echo home_url( '/' )."categoria/informatica"; ?>">Informática</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/acessorios"; ?>">Acessórios</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/produtos-refurbished"; ?>">Refurbished</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/produtos-vitrine"; ?>">Vitrine</a></li>
-						</ul>									
-																
+							<li><a href="<?php echo home_url( '/' )."categoria/hardware"; ?>">Hardware</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/conectividade"; ?>">Conectividade</a></li>
+
+						</ul>
 					</div>
-					<div class="col-md-3">
-						<strong>Sobre a Space Cell</strong><br><br>
+					<div class="col-md-2">
+						<strong></strong><br><br>
+						<ul>
+							<li><a href="<?php echo home_url( '/' )."categoria/armazenamento"; ?>">Armazenamento</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/energia"; ?>">Energia</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/seguranca"; ?>">Segurança</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/audio-e-video"; ?>">Áudio e Vídeo</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<strong>Sobre a Microshop</strong><br><br>
 						<ul>
 							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Institucional</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."politica-de-privacidade" ); ?>">Política de Privacidade</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."troca-e-devolucao" ); ?>">Troca e Devolução</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Fale Conosco</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."duvidas-frequentes" ); ?>">Dúvidas Frequentes</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-3">
+						<strong></strong><br><br>
+						<ul>
+							<li><a href="<?php echo esc_url( home_url( '/' )."central-de-atendimento" ); ?>">Central de Atendimento</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."loja-fisica" ); ?>">Loja Física</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."mercado-livre" ); ?>">Mercado Livre</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."sac" ); ?>">SAC</a></li>
 						</ul>	
 					</div>
 					<div class="col-md-3">
 						<strong>Nossas Redes Sociais</strong><br><br>
 						<ul class="redes_sociais_bot">
 							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="https://www.instagram.com/spacecellreal
-"></a></li>
-							<li class="twitter"><a target="_blank" href="https://www.twitter.com/spacecellreal
-"></a></li>
-							<li class="facebook"><a target="_blank" href="https://www.facebook.com/spacecelloficial?__mref=message_bubble"></a></li>
+							<li class="instagram"><a target="_blank" href="#"></a></li>
+							<li class="twitter"><a target="_blank" href="#"></a></li>
+							<li class="facebook"><a target="_blank" href="#"></a></li>
 						</ul>
 					</div>
 				</div><!-- .row -->
@@ -45,9 +57,7 @@
 					<div class="col-md-2">
 						<strong>Televendas</strong><br><br>
 						<p>
-							11 4113-7611 <br/> 
-							11 4113-7283 <br/> 
-							contato@spacecell.com.br
+							XXXX-XXXX
 						</p>
 					</div>
 				</div>
@@ -57,7 +67,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
-						&copy; Copyright <?php echo date('Y') ?> - CNPJ 17.384.419/0001-97 - Tatuapé - São Paulo 
+						&copy; Copyright <?php echo date('Y') ?> - Microshop Santa Ifigênia
 					</div>
 					<div class="col-md-2">
 						<a target="_blank" href="http://agenciarino.com.br/"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seimi.png"?>" /></a>	

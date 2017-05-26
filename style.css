@@ -108,7 +108,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       list-style-type: none; }
       #page #header nav ul.main-navigation li {
         float: left;
-        width: 9%; }
+        width: 12.5%; }
         #page #header nav ul.main-navigation li a {
           color: white;
           width: 100%;
@@ -434,9 +434,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #footer div.footer-content {
       padding: 50px 0;
       background-color: #f5f5f5; }
-      #page #footer div.footer-content div.main div.produtos ul {
-        float: left;
-        width: 33.3%; }
       #page #footer div.footer-content div.main ul {
         padding: 0;
         margin: 0;
@@ -523,9 +520,11 @@ section#newsletter {
   margin-bottom: 50px; }
   section#newsletter div.left {
     padding: 25px;
-    background-color: #0c4aa1; }
+    background-color: #0c4aa1;
+    margin-left: 15px; }
   section#newsletter div.right {
-    background-color: #f5f5f5; }
+    background-color: #f5f5f5;
+    margin-right: 15px; }
     section#newsletter div.right .input-newstext {
       padding: 8px 5px; }
     section#newsletter div.right .btn-news {
@@ -537,5 +536,8 @@ section#newsletter {
       background-color: #8394dd; }
     section#newsletter div.right .newspad {
       padding: 23px; }
+
+.flexslider {
+  margin-bottom: 0 !important; }
 
 /*# sourceMappingURL=style.css.map */

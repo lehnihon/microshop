@@ -122,10 +122,12 @@ section#newsletter{
 	div.left{
 		padding: 25px;
 		background-color: #0c4aa1;
+		margin-left:15px;
 	}
 
 	div.right{
 		background-color:#f5f5f5;
+		margin-right:15px;
 
 		.input-newstext{
 			padding: 8px 5px;				
@@ -146,5 +148,9 @@ section#newsletter{
 		}
 
 	}
+}
+
+.flexslider{
+	margin-bottom:0 !important;
 }
 
