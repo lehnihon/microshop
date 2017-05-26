@@ -53,7 +53,7 @@ get_header(); ?>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'destaques',  'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'informatica',  'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  
