@@ -43,27 +43,32 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section id="produtos">
+	<section class="produtos">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">Informática</h1>
+					<h1 class="small underline text-left">Computadores</h1>
 				</div>
 			</div>	
-			<div class="row">
-			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'informatica',  'orderby' => 'rand' );
-		        $loop = new WP_Query( $args );
+			<div class="row produto-slider">
+				<img class="e-claro control-esq cea" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/left.jpg"; ?>"/>
+				<img class="e-claro control-dir cda" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/right.jpg"; ?>"/>
+				<ul class="row bxslider bxslider-a">
 
-		        while ( $loop->have_posts() ) : $loop->the_post();  
-			    ?>
-					<div class="col-md-3">
-						<?php get_template_part( 'template-parts/content'); ?>
-					</div>
-				<?php
-				endwhile;
-				?>
+				    <?php
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $loop = new WP_Query( $args );
+
+			        while ( $loop->have_posts() ) : $loop->the_post();  
+				    ?>
+						<li>
+							<?php get_template_part( 'template-parts/content'); ?>
+						</li>
+					<?php
+					endwhile;
+					?>
+				</ul>
 			</div>	
 			<div class="row category">
 				<div class="col-md-12">
@@ -75,23 +80,28 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="underline text-left">Acessórios</h1>
+					<h2 class="underline text-left">Hardware</h1>
 				</div>
 			</div>	
-			<div class="row">
-			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'celulares', 'orderby' => 'rand' );
-		        $loop = new WP_Query( $args );
+			<div class="row produto-slider">
+				<img class="e-claro control-esq ceb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/left.jpg"; ?>"/>
+				<img class="e-claro control-dir cdb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/right.jpg"; ?>"/>
+				<ul class="row bxslider bxslider-b">
 
-		        while ( $loop->have_posts() ) : $loop->the_post();  
-			    ?>
-					<div class="col-md-3">
-						<?php get_template_part( 'template-parts/content'); ?>
-					</div>
-				<?php
-				endwhile;
-				?>
-			</div>	
+				    <?php
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $loop = new WP_Query( $args );
+
+			        while ( $loop->have_posts() ) : $loop->the_post();  
+				    ?>
+						<li>
+							<?php get_template_part( 'template-parts/content'); ?>
+						</li>
+					<?php
+					endwhile;
+					?>
+				</ul>
+			</div>
 			<div class="row category">
 				<div class="col-md-4">
 					<?php 
@@ -114,27 +124,32 @@ get_header(); ?>
 
 	</section>
 
-	<section id="produtosb">
+	<section class="produtosb">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">Conectividade</h1>
+					<h1 class="small underline text-left">Armazenamento</h1>
 				</div>
 			</div>	
-			<div class="row">
-			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'eletroportateis',  'orderby' => 'rand' );
-		        $loop = new WP_Query( $args );
+			<div class="row produto-slider">
+				<img class="e-claro control-esq cec" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/left.jpg"; ?>"/>
+				<img class="e-claro control-dir cdc" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/right.jpg"; ?>"/>
+				<ul class="row bxslider bxslider-c">
 
-		        while ( $loop->have_posts() ) : $loop->the_post();  
-			    ?>
-					<div class="col-md-3">
-						<?php get_template_part( 'template-parts/content'); ?>
-					</div>
-				<?php
-				endwhile;
-				?>
+				    <?php
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $loop = new WP_Query( $args );
+
+			        while ( $loop->have_posts() ) : $loop->the_post();  
+				    ?>
+						<li>
+							<?php get_template_part( 'template-parts/content'); ?>
+						</li>
+					<?php
+					endwhile;
+					?>
+				</ul>
 			</div>	
 
 		</div>
@@ -142,32 +157,99 @@ get_header(); ?>
 
 	<?php get_template_part( 'template-parts/newsletter' ); ?>
 
-	<section id="produtos">
+	<section class="produtos">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="small underline text-left">Produtos Microshop</h1>
 				</div>
-			</div>	
-			<div class="row">
-			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'eletroportateis',  'orderby' => 'rand' );
-		        $loop = new WP_Query( $args );
+			</div>
+			<div class="row produto-slider">
+				<img class="e-claro control-esq ced" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/left.jpg"; ?>"/>
+				<img class="e-claro control-dir cdd" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/right.jpg"; ?>"/>
+				<ul class="row bxslider bxslider-d">
 
-		        while ( $loop->have_posts() ) : $loop->the_post();  
-			    ?>
-					<div class="col-md-3">
-						<?php get_template_part( 'template-parts/content'); ?>
-					</div>
-				<?php
-				endwhile;
-				?>
-			</div>	
+				    <?php
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $loop = new WP_Query( $args );
 
+			        while ( $loop->have_posts() ) : $loop->the_post();  
+				    ?>
+						<li>
+							<?php get_template_part( 'template-parts/content'); ?>
+						</li>
+					<?php
+					endwhile;
+					?>
+				</ul>
+			</div>
 		</div>
 	</section>
 
 </div>
-
+<script>
+$(document).ready(function(){
+	var slidera = $('.bxslider-a').bxSlider({
+		minSlides: 4,
+		maxSlides: 4,
+		slideWidth: 2000,
+		infiniteLoop: false,
+		pager: false,
+		slideMargin: 10,
+		controls: false
+	});
+	$('.cea').on('click',function(){
+		slidera.goToPrevSlide();
+	})
+	$('.cda').on('click',function(){
+		slidera.goToNextSlide();
+	})
+	var sliderb = $('.bxslider-b').bxSlider({
+		minSlides: 4,
+		maxSlides: 4,
+		slideWidth: 2000,
+		infiniteLoop: false,
+		pager: false,
+		slideMargin: 10,
+		controls: false
+	});
+	$('.ceb').on('click',function(){
+		sliderb.goToPrevSlide();
+	})
+	$('.cdb').on('click',function(){
+		sliderb.goToNextSlide();
+	})
+	var sliderc = $('.bxslider-c').bxSlider({
+		minSlides: 4,
+		maxSlides: 4,
+		slideWidth: 2000,
+		infiniteLoop: false,
+		pager: false,
+		slideMargin: 10,
+		controls: false
+	});
+	$('.cec').on('click',function(){
+		sliderc.goToPrevSlide();
+	})
+	$('.cdc').on('click',function(){
+		sliderc.goToNextSlide();
+	})
+	var sliderd = $('.bxslider-d').bxSlider({
+		minSlides: 4,
+		maxSlides: 4,
+		slideWidth: 2000,
+		infiniteLoop: false,
+		pager: false,
+		slideMargin: 10,
+		controls: false
+	});
+	$('.ced').on('click',function(){
+		sliderd.goToPrevSlide();
+	})
+	$('.cdd').on('click',function(){
+		sliderd.goToNextSlide();
+	})
+});
+</script>
 <?php get_footer(); ?>

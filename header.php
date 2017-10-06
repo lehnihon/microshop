@@ -26,7 +26,7 @@
 			<div class="row">
 				<div class="col-md-offset-7 col-md-5">
 					<ul class="menu-top">
-						<li class="hide-op"><a href="<?php echo home_url( '/' ).'sobre'; ?>">Sobre a Microshop</a></li>
+						<li class="hide-op"><a href="<?php echo home_url( '/' ).'sobre'; ?>">Sobre a Microshopping</a></li>
 						<li><a href="<?php echo home_url( '/' ).'minha-conta'; ?>">Minha Conta / Cadastre-se</a></li>
 						<li class="hide-op"><a href="<?php echo home_url( '/' ).'contato'; ?>">Contato</a></li>
 					</ul>
@@ -64,26 +64,85 @@
 						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' )."categoria/informatica"; ?>">Informática</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/acessorios"; ?>">Acessórios</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/hardware"; ?>">Hardware</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/conectividade"; ?>">Conectividade</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/armazenamento"; ?>">Armazenamento</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/energia"; ?>">Energia</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/seguranca"; ?>">Segurança</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/audio-e-video"; ?>">Áudio e Vídeo</a></li>
+						<?php
+						$args = array(
+						     'taxonomy'     => 'product_cat',
+						     'orderby'      => 'name',
+						     'show_count'   => 0,
+						     'pad_counts'   => 0,
+						     'hierarchical' => 1,
+						     'title_li'     => '',
+						     'hide_empty'   => 0
+						);
+						$all_categories = get_categories( $args );
+						foreach ($all_categories as $cat) {
+							if($cat->category_parent == 0) {
+							    $category_id = $cat->term_id;
+							    $args2 = array(
+							            'taxonomy'     => 'product_cat',
+							            'child_of'     => 0,
+							            'parent'       => $category_id,
+							            'orderby'      => 'name',
+							            'show_count'   => 0,
+							            'pad_counts'   => 0,
+							            'hierarchical' => 1,
+							            'title_li'     => '',
+							            'hide_empty'   => 0
+							    );
+							    $sub_cats = get_categories( $args2 );
+							    if($sub_cats) {
+							        foreach($sub_cats as $sub_category) {
+							            echo '<li><a class="drop-item" href="'.get_term_link($sub_category->slug, 'product_cat') .'">'. $sub_category->name .'</a></li>';
+							        }
+							    }
+							}
+						}
+						?>
 					</ul>								
 				</div>
 				<ul class="main-navigation clearfix">
-					<li><a href="<?php echo home_url( '/' )."categoria/informatica"; ?>">Informática</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/acessorios"; ?>">Acessórios</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/hardware"; ?>">Hardware</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/conectividade"; ?>">Conectividade</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/armazenamento"; ?>">Armazenamento</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/energia"; ?>">Energia</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/seguranca"; ?>">Segurança</a></li>
-					<li><a href="<?php echo home_url( '/' )."categoria/audio-e-video"; ?>">Áudio e Vídeo</a></li>
-				</ul>				
+					<?php
+					$args = array(
+					     'taxonomy'     => 'product_cat',
+					     'orderby'      => 'name',
+					     'show_count'   => 0,
+					     'pad_counts'   => 0,
+					     'hierarchical' => 1,
+					     'title_li'     => '',
+					     'hide_empty'   => 0
+					);
+					$all_categories = get_categories( $args );
+					foreach ($all_categories as $cat) {
+						if($cat->category_parent == 0) {
+						    $category_id = $cat->term_id;       
+						    echo '
+						    <li class="drop-container drop-event">
+						    	<a class="drop-item" href="'.get_term_link($cat->slug, 'product_cat') .'">'. $cat->name .'</a>';
+
+						    $args2 = array(
+						            'taxonomy'     => 'product_cat',
+						            'child_of'     => 0,
+						            'parent'       => $category_id,
+						            'orderby'      => 'name',
+						            'show_count'   => 0,
+						            'pad_counts'   => 0,
+						            'hierarchical' => 1,
+						            'title_li'     => '',
+						            'hide_empty'   => 0
+						    );
+						    $sub_cats = get_categories( $args2 );
+						    if($sub_cats) {
+						    	echo '<div class="drop-sub">';
+						        foreach($sub_cats as $sub_category) {
+						            echo '<div><a class="drop-item" href="'.get_term_link($sub_category->slug, 'product_cat') .'">'. $sub_category->name .'</a></div>';
+						        }
+						        echo "</div>";
+						    }
+						    echo '</li>';
+						}
+					}
+					?>
+				</ul>
 			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

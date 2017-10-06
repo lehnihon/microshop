@@ -7,7 +7,7 @@
 		}
 	}
 	
-	section#produtos{
+	section.produtos{
 		margin-bottom: 50px;
 
 		div.category{
@@ -16,7 +16,6 @@
 
 		article{
 			padding:25px 15px;
-			border:1px solid #c0c0c0;
 
 			h4{
 				min-height: 34px;
@@ -54,12 +53,9 @@
 			}
 		}
 
-		article:hover{
-			border:1px solid #005176;
-		}
 	}
 
-	section#produtosb{
+	section.produtosb{
 		margin-bottom: 50px;
 
 		div.category{
@@ -68,7 +64,6 @@
 
 		article{
 			padding:25px 15px;
-			border:1px solid #c0c0c0;
 
 			h4{
 				min-height: 34px;
@@ -104,10 +99,6 @@
 			a.btn-comprar:hover{
 				background-color:#DC6633;
 			}
-		}
-
-		article:hover{
-			border:1px solid #005176;
 		}
 	}
 
@@ -156,32 +147,20 @@ section#produto-woo{
 			text-align: left;
 			margin-top: 10px;
 			
-			div.titulo-filtro{
+			.widget-title{
 				background-color:#e0e0e0;
 				padding-top:10px;
 				padding-bottom:10px;
 				padding-left:25px;
 				padding-right:10px;
-
-				img.img-plus{
-					float: right;
-				}
-				img.img-plus{
-					cursor:pointer;
-				}	
+				margin-bottom:10px;
+				color:#005274;
+				font-size:14px;
+				font-weight:normal;
 			}
 
-			div.yith-woo-ajax-navigation{
-				padding:10px 25px;
-				background-color:#f0f0f0;
-
-				.count::before{
-					content: "(";
-				}
-				.count::after{
-					content: ")";
-				}
-
+			div{
+				padding:0 15px;
 			}
 		}
 	}
@@ -342,11 +321,13 @@ div.descricao-produto{
 }
 
 div.related{
-	margin-bottom:50px;
+	.container{
+		margin-bottom:50px;
+	}
+	
 
 	article{
 		padding:25px 15px;
-		border:1px solid #c0c0c0;
 
 		h4{
 			min-height: 34px;
@@ -385,9 +366,6 @@ div.related{
 	}
 
 
-	article:hover{
-		border:1px solid #005176;
-	}	
 }
 
 div#outros{

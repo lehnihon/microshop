@@ -28,6 +28,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page a:hover {
     text-decoration: none;
     color: #00a9d6; }
+  #page a:visited {
+    text-decoration: none; }
   #page h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -61,6 +63,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h4 {
     margin-top: 0;
     font-size: 16px; }
+  #page .bxslider {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px; }
+  #page .bx-viewport {
+    -moz-box-shadow: 0 0 0 white !important;
+    -webkit-box-shadow: 0 0 0 white !important;
+    box-shadow: 0 0 0 white !important;
+    border: 0 !important; }
   #page .underline {
     border-bottom: 4px solid #d34000;
     padding-bottom: 10px; }
@@ -75,7 +86,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 15px;
       margin-bottom: 15px; }
   #page #header form.search-form {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 0; }
     #page #header form.search-form input.pesquisar-input {
       float: left;
@@ -89,7 +100,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-top: 20px; }
+    margin-top: 30px; }
     #page #header ul.cart-item li {
       float: left;
       border: 1px solid #d8d8d8; }
@@ -98,17 +109,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #header ul.cart-item li.number {
       padding: 8.5px;
       border-left: 0;
-      width: 60%; }
+      width: 73%; }
   #page #header nav {
     background-color: #0c4aa1;
-    margin: 25px 0; }
+    margin: 25px 0;
+    color: white; }
     #page #header nav ul.main-navigation {
       margin: 0;
       padding: 0;
       list-style-type: none; }
       #page #header nav ul.main-navigation li {
         float: left;
-        width: 12.5%; }
+        width: 11.1%; }
         #page #header nav ul.main-navigation li a {
           color: white;
           width: 100%;
@@ -116,6 +128,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           padding: 15px 0; }
       #page #header nav ul.main-navigation li:hover {
         background-color: #1063D4; }
+      #page #header nav ul.main-navigation li.drop-container {
+        position: relative; }
+        #page #header nav ul.main-navigation li.drop-container div.drop-sub {
+          position: absolute;
+          background-color: white;
+          z-index: 1000;
+          border: 1px solid #d8d8d8;
+          border-top: 0;
+          color: black;
+          min-width: 150px;
+          text-align: left;
+          list-style: none;
+          background-color: #fff;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          border-radius: 4px;
+          -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          display: none; }
+          #page #header nav ul.main-navigation li.drop-container div.drop-sub div {
+            padding: 5px 10px; }
+            #page #header nav ul.main-navigation li.drop-container div.drop-sub div a {
+              color: #565656; }
+          #page #header nav ul.main-navigation li.drop-container div.drop-sub div:hover {
+            background-color: #d34000; }
+            #page #header nav ul.main-navigation li.drop-container div.drop-sub div:hover a {
+              color: white; }
     #page #header nav div.menu-responsivo {
       position: relative; }
   @media (max-width: 991px) {
@@ -140,68 +181,62 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #content section#banner div.category {
     padding-top: 25px;
     padding-bottom: 50px; }
-  #page #content section#produtos {
+  #page #content section.produtos {
     margin-bottom: 50px; }
-    #page #content section#produtos div.category {
+    #page #content section.produtos div.category {
       padding: 50px 0; }
-    #page #content section#produtos article {
-      padding: 25px 15px;
-      border: 1px solid #c0c0c0; }
-      #page #content section#produtos article h4 {
+    #page #content section.produtos article {
+      padding: 25px 15px; }
+      #page #content section.produtos article h4 {
         min-height: 34px; }
-      #page #content section#produtos article span.price {
+      #page #content section.produtos article span.price {
         font-weight: bold;
         color: #005176;
         font-size: 15px;
         padding: 10px 0;
         display: block; }
-        #page #content section#produtos article span.price del {
+        #page #content section.produtos article span.price del {
           display: block;
           font-weight: normal; }
-        #page #content section#produtos article span.price ins {
+        #page #content section.produtos article span.price ins {
           display: block; }
-      #page #content section#produtos article a {
+      #page #content section.produtos article a {
         display: block; }
-      #page #content section#produtos article a.btn-comprar {
+      #page #content section.produtos article a.btn-comprar {
         background-color: #d34000;
         color: white;
         font-size: 18px;
         padding: 5px 0; }
-      #page #content section#produtos article a.btn-comprar:hover {
+      #page #content section.produtos article a.btn-comprar:hover {
         background-color: #DC6633; }
-    #page #content section#produtos article:hover {
-      border: 1px solid #005176; }
-  #page #content section#produtosb {
+  #page #content section.produtosb {
     margin-bottom: 50px; }
-    #page #content section#produtosb div.category {
+    #page #content section.produtosb div.category {
       padding: 50px 0; }
-    #page #content section#produtosb article {
-      padding: 25px 15px;
-      border: 1px solid #c0c0c0; }
-      #page #content section#produtosb article h4 {
+    #page #content section.produtosb article {
+      padding: 25px 15px; }
+      #page #content section.produtosb article h4 {
         min-height: 34px; }
-      #page #content section#produtosb article span.price {
+      #page #content section.produtosb article span.price {
         font-weight: bold;
         color: #005176;
         font-size: 15px;
         padding: 10px 0;
         display: block; }
-        #page #content section#produtosb article span.price del {
+        #page #content section.produtosb article span.price del {
           display: block;
           font-weight: normal; }
-        #page #content section#produtosb article span.price ins {
+        #page #content section.produtosb article span.price ins {
           display: block; }
-      #page #content section#produtosb article a {
+      #page #content section.produtosb article a {
         display: block; }
-      #page #content section#produtosb article a.btn-comprar {
+      #page #content section.produtosb article a.btn-comprar {
         background-color: #d34000;
         color: white;
         font-size: 18px;
         padding: 5px 0; }
-      #page #content section#produtosb article a.btn-comprar:hover {
+      #page #content section.produtosb article a.btn-comprar:hover {
         background-color: #DC6633; }
-    #page #content section#produtosb article:hover {
-      border: 1px solid #005176; }
   #page #content section#contato-pag {
     margin-bottom: 50px; }
     #page #content section#contato-pag .info-right {
@@ -225,23 +260,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#produto-woo div.woo-produtos-menu div.filtro {
       text-align: left;
       margin-top: 10px; }
-      #page section#produto-woo div.woo-produtos-menu div.filtro div.titulo-filtro {
+      #page section#produto-woo div.woo-produtos-menu div.filtro .widget-title {
         background-color: #e0e0e0;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 25px;
-        padding-right: 10px; }
-        #page section#produto-woo div.woo-produtos-menu div.filtro div.titulo-filtro img.img-plus {
-          float: right; }
-        #page section#produto-woo div.woo-produtos-menu div.filtro div.titulo-filtro img.img-plus {
-          cursor: pointer; }
-      #page section#produto-woo div.woo-produtos-menu div.filtro div.yith-woo-ajax-navigation {
-        padding: 10px 25px;
-        background-color: #f0f0f0; }
-        #page section#produto-woo div.woo-produtos-menu div.filtro div.yith-woo-ajax-navigation .count::before {
-          content: "("; }
-        #page section#produto-woo div.woo-produtos-menu div.filtro div.yith-woo-ajax-navigation .count::after {
-          content: ")"; }
+        padding-right: 10px;
+        margin-bottom: 10px;
+        color: #005274;
+        font-size: 14px;
+        font-weight: normal; }
+      #page section#produto-woo div.woo-produtos-menu div.filtro div {
+        padding: 0 15px; }
     #page section#produto-woo div#wc-correios-simulator .button {
       background-color: #0c4aa1;
       color: white;
@@ -323,35 +353,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #f5f5f5;
     margin-bottom: 50px;
     text-align: left; }
-  #page div.related {
+  #page div.related .container {
     margin-bottom: 50px; }
-    #page div.related article {
-      padding: 25px 15px;
-      border: 1px solid #c0c0c0; }
-      #page div.related article h4 {
-        min-height: 34px; }
-      #page div.related article span.price {
-        font-weight: bold;
-        color: #005176;
-        font-size: 15px;
-        padding: 10px 0;
+  #page div.related article {
+    padding: 25px 15px; }
+    #page div.related article h4 {
+      min-height: 34px; }
+    #page div.related article span.price {
+      font-weight: bold;
+      color: #005176;
+      font-size: 15px;
+      padding: 10px 0;
+      display: block; }
+      #page div.related article span.price del {
+        display: block;
+        font-weight: normal; }
+      #page div.related article span.price ins {
         display: block; }
-        #page div.related article span.price del {
-          display: block;
-          font-weight: normal; }
-        #page div.related article span.price ins {
-          display: block; }
-      #page div.related article a {
-        display: block; }
-      #page div.related article a.btn-comprar {
-        background-color: #d34000;
-        color: white;
-        font-size: 18px;
-        padding: 5px 0; }
-      #page div.related article a.btn-comprar:hover {
-        background-color: #DC6633; }
-    #page div.related article:hover {
-      border: 1px solid #005176; }
+    #page div.related article a {
+      display: block; }
+    #page div.related article a.btn-comprar {
+      background-color: #d34000;
+      color: white;
+      font-size: 18px;
+      padding: 5px 0; }
+    #page div.related article a.btn-comprar:hover {
+      background-color: #DC6633; }
   #page div#outros {
     margin-bottom: 25px;
     background-color: #f5f5f5;
@@ -432,7 +459,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #footer {
     text-align: left; }
     #page #footer div.footer-content {
-      padding: 50px 0;
+      padding: 70px 0;
       background-color: #f5f5f5; }
       #page #footer div.footer-content div.main ul {
         padding: 0;
@@ -482,15 +509,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         display: inline-block; }
       #page #footer div.footer-content div.outros {
         border-top: 1px solid #c4c4c4;
-        margin-top: 25px;
-        padding-top: 25px; }
+        margin-top: 35px;
+        padding-top: 35px; }
         #page #footer div.footer-content div.outros img {
           margin-right: 50px; }
     #page #footer div.copyrino {
       text-align: center;
       color: white;
       background-color: #d34000;
-      padding: 20px 0; }
+      padding: 30px 0; }
       #page #footer div.copyrino .col-md-10 a {
         color: white; }
       #page #footer div.copyrino .col-md-10 a:hover {
@@ -506,6 +533,27 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border: 0; }
   #page .btn-contato:hover {
     background-color: #8394dd; }
+  #page .control-esq {
+    top: 40%;
+    left: -30px;
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    cursor: pointer; }
+  #page .control-dir {
+    top: 40%;
+    right: -20px;
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    cursor: pointer; }
+  #page .produto-slider {
+    position: relative; }
+
+.wp-post-image {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
@@ -520,13 +568,12 @@ section#newsletter {
   margin-bottom: 50px; }
   section#newsletter div.left {
     padding: 25px;
-    background-color: #0c4aa1;
-    margin-left: 15px; }
+    background-color: #0c4aa1; }
   section#newsletter div.right {
-    background-color: #f5f5f5;
-    margin-right: 15px; }
+    background-color: #f5f5f5; }
     section#newsletter div.right .input-newstext {
-      padding: 8px 5px; }
+      padding: 8px 5px;
+      width: 80%; }
     section#newsletter div.right .btn-news {
       background-color: #005176;
       padding: 10px 25px;
@@ -535,7 +582,7 @@ section#newsletter {
     section#newsletter div.right .btn-news:hover {
       background-color: #8394dd; }
     section#newsletter div.right .newspad {
-      padding: 23px; }
+      padding: 33px 0; }
 
 .flexslider {
   margin-bottom: 0 !important; }

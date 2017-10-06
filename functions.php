@@ -80,6 +80,14 @@ function site_setup() {
 endif; // site_setup
 add_action( 'after_setup_theme', 'site_setup' );
 
+add_action( 'after_setup_theme', 'yourtheme_setup' );
+ 
+function yourtheme_setup() {
+	add_theme_support( 'wc-product-gallery-zoom' );
+	add_theme_support( 'wc-product-gallery-lightbox' );
+	add_theme_support( 'wc-product-gallery-slider' );
+}
+
 // Display 24 products per page. Goes in functions.php
 add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 12;' ), 20 );
 
@@ -156,6 +164,8 @@ function jk_related_products_args( $args ) {
 	$args['columns'] = 4; // arranged in 2 columns
 	return $args;
 }
+
+
 
 function custom_login_logo() {
 	echo '<style type="text/css">

@@ -60,10 +60,7 @@ get_header( 'shop' ); ?>
 			</div>
 
 			<div class="filtro">
-				<div class="titulo-filtro">
-					<span>Quantidade de Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
-				</div>
-				<?php echo do_shortcode('[woof sid="auto_shortcode" autohide=0 taxonomies=product_cat:23]'); ?>
+				<?php dynamic_sidebar( 'sidebar' ); ?>
 			</div>
 			
 		</div>	

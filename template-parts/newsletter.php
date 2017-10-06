@@ -6,7 +6,7 @@
 			</div>		
 			<div class="col-md-8 right">
 				<?php
-				if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 9 ); }
+					echo do_shortcode('[contact-form-7 id="34" title="newsletter"]');
 				?>	
 			</div>
 		</div>			
