@@ -16,34 +16,26 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="fundo-cinza">
-					HISTÓRIA DA SPACE CELL
+					A Micro Shopping
 				</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 text-left">
 				<strong>Histórico</strong><br><br>
+				<p>A Micro Shopping é uma empresa especializada no comércio eletrônico de hardwares, computadores e acessórios para informática. </p>
+				<p>Atuamos nesse segmento há mais de 10 anos e contamos com uma loja física
+				na Santa Ifigênia, sempre trabalhando com produtos de primeira linha.<br>
+				Nossos esforços estão direcionados para a constante melhoria no atendimento 
+				e para alcançar a completa satisfação de todos os nossos clientes.</p>
+
 				<p>
-					A Space Cell é uma empresa especializada no comércio eletrônico de 
-					celulares, smartphones, tablets, acessórios e eletroportáteis. 
+					Todos os produtos que são comercializados pela Micro Shopping são provenientes 
+				exclusivamente dos fabricantes ou dos distribuidores oficiais desses produtos, 
+				portanto, no site da Micro Shopping você vai encontrar somente produtos 
+				originais e com nota fiscal.
 				</p>
-				<p>					
-					Atuamos nesse segmento desde 2011 em parceria com as grandes marcas, 
-					como a Mallory, Motorolla, Black Berry, Samsung, Apple, Nextel e MEU. 
-					Nossos esforços estão direcionados para a constante melhoria no atendimento 
-					e para alcançar a completa satisfação de todos os nossos clientes.
-				</p>
-				<p>
-					Todos os produtos que são comercializados pela Space Cell são provenientes 
-					exclusivamente dos fabricantes ou dos distribuidores oficiais desses produtos, 
-					portanto, no site da Space Cell os clientes vão encontrar somente produtos 
-					originais e com nota fiscal.					
-				</p>
-				<p>
-					Através da nossa loja virtual, disponibilizamos para todos os nossos clientes o
-					que há de mais seguro e atual, visando atender os clientes da Space Cell com
-					maior comodidade e agilidade.						
-				</p>			
+				<p>Através da nossa loja virtual, disponibilizamos para todos os nossos clientes o que há de mais seguro e atual, visando atender você com maior comodidade.</p>
 			</div>
 			<div class="col-md-6 text-left">
 				<p>
@@ -51,26 +43,13 @@ get_header(); ?>
 					qualidade de atendimento, velocidade de entrega e respeito pelo 
 					consumidor.
 				</p>
-				<p>
-					Na Space Cell você encontra os melhroes produtos pelos menores preços.
-				</p>
-				<p>
-					Qual é o nosso negócio?
-				</p>	
-				<p>
-					Qualidade e bom gosto são itens fundamentais entre os produtos e serviços 
-					oferecidos pela Space Cell. 
-				</p>
-				<p>
-					Os produtos são divididos pelos seguintes segmentos:
-				</p>
-				<p>
-					Portáteis: cafeteiras, sanduicheiras, fritadeiras, grill, multiprocessadores, 
-					bebedouros e cuidados pessoais.					
-				</p>
-				<p>
-					Telefonia: smartphones, celulares, nextel, Black Berry, tablets e acessórios.	
-				</p>		
+				<p>Na  Micro Shopping você encontra os melhrores produtos pelos menores preços.</p>
+				<p>Qual é o nosso negócio?</p>
+				<p>Qualidade e bom gosto são itens fundamentais entre os produtos e serviços 
+				oferecidos pela Micro Shopping. </p>
+				<p>Os produtos são divididos pelos seguintes segmentos:</p>
+				<p>Hardwares, acessórios para informática, roteadores, monitores, computadores,
+				gabinetes, tudo direcionado para o mundo da informática.</p>
 			</div>
 		</div>	
 	</div>
@@ -79,5 +58,4 @@ get_header(); ?>
 	
 <?php get_template_part( 'template-parts/newsletter' ); ?>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

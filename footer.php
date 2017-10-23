@@ -22,12 +22,12 @@
 						</ul>	
 					</div>
 					<div class="col-md-3 col-md-offset-1">
-						<strong>Sobre a Microshopping</strong><br><br>
+						<strong>Sobre a Micro Shopping</strong><br><br>
 						<ul>
 							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Institucional</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."politica-de-privacidade" ); ?>">Política de Privacidade</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."troca-e-devolucao" ); ?>">Troca e Devolução</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."atendimento" ); ?>">Atendimento e Loja Física</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Atendimento e Loja Física</a></li>
 						</ul>	
 					</div>
 					<div class="col-md-3 col-md-offset-1">
@@ -45,14 +45,11 @@
 						<strong>Formas de Pagamento</strong><br>
 						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto.jpg"?>" />
 					</div>
-					<div class="col-md-4">
-						<strong>Site Seguro</strong><br>
-						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-siteseguro.jpg"?>" />
-					</div>
-					<div class="col-md-2">
-						<strong>Televendas</strong><br><br>
+					<div class="col-md-3 col-md-offset-3">
+						<strong>Atendimento</strong><br><br>
 						<p>
-							XXXX-XXXX
+							11 94753-1145<br>
+							Rua Santa Ifigência, 276 - Loja 8B
 						</p>
 					</div>
 				</div>
@@ -62,7 +59,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
-						&copy; Copyright <?php echo date('Y') ?> - Microshopping Santa Ifigênia
+						&copy; Copyright <?php echo date('Y') ?> - Micro Shopping Santa Ifigênia
 					</div>
 					<div class="col-md-2">
 						<a target="_blank" href="http://seimidigital.com.br/"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seimi.png"?>" /></a>	

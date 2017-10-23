@@ -48,7 +48,7 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">Computadores</h1>
+					<h1 class="small underline text-left">Hardware</h1>
 				</div>
 			</div>	
 			<div class="row produto-slider">
@@ -57,7 +57,7 @@ get_header(); ?>
 				<ul class="row bxslider bxslider-a">
 
 				    <?php
-			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'hardware',  'orderby' => 'rand' );
 			        $loop = new WP_Query( $args );
 
 			        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -80,7 +80,7 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="underline text-left">Hardware</h1>
+					<h2 class="underline text-left">Armazenamento</h1>
 				</div>
 			</div>	
 			<div class="row produto-slider">
@@ -89,7 +89,7 @@ get_header(); ?>
 				<ul class="row bxslider bxslider-b">
 
 				    <?php
-			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'armazenamento',  'orderby' => 'rand' );
 			        $loop = new WP_Query( $args );
 
 			        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -129,7 +129,7 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">Armazenamento</h1>
+					<h1 class="small underline text-left">Conectividade</h1>
 				</div>
 			</div>	
 			<div class="row produto-slider">
@@ -138,7 +138,7 @@ get_header(); ?>
 				<ul class="row bxslider bxslider-c">
 
 				    <?php
-			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'conectividade',  'orderby' => 'rand' );
 			        $loop = new WP_Query( $args );
 
 			        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -162,7 +162,7 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">Produtos Microshop</h1>
+					<h1 class="small underline text-left">Produtos Micro Shopping</h1>
 				</div>
 			</div>
 			<div class="row produto-slider">
@@ -171,7 +171,7 @@ get_header(); ?>
 				<ul class="row bxslider bxslider-d">
 
 				    <?php
-			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,'product_cat' => 'informatica',  'orderby' => 'rand' );
+			        $args = array( 'post_type' => 'product', 'posts_per_page' => 8,  'order'=>'DESC' );
 			        $loop = new WP_Query( $args );
 
 			        while ( $loop->have_posts() ) : $loop->the_post();  

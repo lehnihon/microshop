@@ -106,20 +106,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'footer';
 
 	.input-contato{
-		border:0;
-		padding:5px;
-		background-color: #f4f4f4;
+		padding:15px 10px;
+		border:1px solid #cecece;
+		border-radius: 5px;
+		width:100%;
+		margin-bottom:10px;
 	}
 
 	.btn-contato{
-		background-color:#005176;
-		padding:5px 25px;
-		color:white;
-		border:0;
+		background-color:#d34000;
+			padding:10px 25px;
+			color:white;
+			border:0;
 	}
 
 	.btn-contato:hover{
-		background-color:#8394dd;
+		background-color:#DC6633;
 	}
 
 	.control-esq{
@@ -162,6 +164,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+.p-woo-pagseguro-price{
+	display:none !important;
+}
+
+.box-parceled{
+	margin-top:10px !important;
+	h2{
+		display:none !important;
+	}
+}
+
 section#newsletter{
 	margin-bottom: 50px;
 
@@ -171,21 +184,21 @@ section#newsletter{
 	}
 
 	div.right{
-		background-color:#f5f5f5;
+		background-color:#0c4aa1;
 
 		.input-newstext{
 			padding: 8px 5px;
 			width:80%;				
 		}
 		.btn-news{
-			background-color:#005176;
+			background-color:#d34000;
 			padding:10px 25px;
 			color:white;
 			border:0;
 		}
 
 		.btn-news:hover{
-			background-color:#8394dd;
+			background-color:#DC6633;
 		}
 
 		.newspad{

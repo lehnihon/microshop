@@ -34,45 +34,45 @@ get_header(); ?>
 					1.1.Para fins desta Política, aplicam-se as seguintes definições:
 				</p>	
 				<p>
-					Autenticação: Ato de o visitante inserir seu nome de usuário e senha para ter acesso às áreas e funcionalidades restritas da Space Cell;
+					Autenticação: Ato de o visitante inserir seu nome de usuário e senha para ter acesso às áreas e funcionalidades restritas da Micro Shopping;
 				</p>	
 				<p>
-					Clientes: Pessoas que efetuaram aquisição de produtos ou serviços oferecidos pelo Portal www.spacecell.com.br;
+					Clientes: Pessoas que efetuaram aquisição de produtos ou serviços oferecidos pelo Portal www.microshopping.com.br;
 				</p>
 				<p>
-					Conta de Acesso: Credencial digital formada pela combinação de login e senha, única e intransferível para cada usuário da Space Cell,
+					Conta de Acesso: Credencial digital formada pela combinação de login e senha, única e intransferível para cada usuário da Micro Shopping,
 				</p>
 				<p>
-					Usuário: Todo visitante autenticado na Space Cell;
+					Usuário: Todo visitante autenticado na Micro Shopping;
 				</p>
 				<p>
-					Visitante: Qualquer pessoa que navegar pelo spacecell.com.br
+					Visitante: Qualquer pessoa que navegar pelo microshopping.com.br
 				</p><br><br>
 				<p>
 					<strong>2. Entrega das mercadorias:</strong>
 				</p>
 				<p>
-					2.1. A Space Cell utiliza diversos serviços para a entrega de seus produtos, cujo tempo de transporte pode variar de acordo com a região do destinatário. 
+					2.1. A Micro Shopping utiliza diversos serviços para a entrega de seus produtos, cujo tempo de transporte pode variar de acordo com a região do destinatário. 
 					Por isso, esteja atento com o status de seu pedido e se certifique que haverá alguém apto para receber a encomenda na data prevista, entre as 8h e 23h, 
 					ou na data e período selecionados, caso tenha optado pela entrega agendada.					
 				</p>
 				<p>
 					2.2. Caso a entrega não seja efetivada, haverá 02 (duas) tentativas posteriores, contudo se mesmo assim todas as tentativas de entrega restarem infrutíferas, 
-					o produto voltará ao Centro de Distribuição da Space Cell.					
+					o produto voltará ao Centro de Distribuição da Micro Shopping.					
 				</p>
 				<p>
-					2.3. Todas as encomendas a serem entregues estarão em caixas ou envelopes personalizados, lacrados com uma fita exclusiva da Space Cell. Caso o consumidor 
+					2.3. Todas as encomendas a serem entregues estarão em caixas ou envelopes personalizados, lacrados com uma fita exclusiva da Micro Shopping. Caso o consumidor 
 constate que a embalagem esteja violada, a sugestão é que esta seja recusada no momento da entrega, evitando assim posteriores transtornos.
 				</p>
 				<p>
 					2.4. Caso seja constatado que o(s) produto(s) está(ão) em desacordo com o contratado, o Cliente deverá recusar o recebimento do pedido, registrar o motivo e 
-comunicar a central de atendimento ao consumidor da Space Cell sobre o ocorrido.
+comunicar a central de atendimento ao consumidor da Micro Shopping sobre o ocorrido.
 				</p><br><br>
 				<p>
 					<strong>3. Troca de produtos com defeito:</strong>
 				</p>
 				<p>
-					3.1. A Space Cell efetuará a troca do(s) produto(s) adquirido(s) por seus Clientes, de acordo com o previsto no Código de Defesa do Consumidor.
+					3.1. A Micro Shopping efetuará a troca do(s) produto(s) adquirido(s) por seus Clientes, de acordo com o previsto no Código de Defesa do Consumidor.
 				</p>
 				<p>
 					3.2. A opção de troca do produto somente estará disponível na hipótese de constatação de vício ou defeito, devendo o Cliente comunicar a Central de 
@@ -87,7 +87,7 @@ recebimento do produto. Após esse período, o Cliente deverá encaminhar o prod
 dias corridos a contar da data do seu recebimento.
 				</p>
 				<p>
-					3.5. Produtos adquiridos na Space Cell não poderão ser trocados em lojas físicas. Para efetuar o procedimento de troca com sucesso o Cliente deverá entrar em 
+					3.5. Produtos adquiridos na Micro Shopping não poderão ser trocados em lojas físicas. Para efetuar o procedimento de troca com sucesso o Cliente deverá entrar em 
 contato com o Serviço de Atendimento ao Cliente para obter o passo a passo a ser seguido.
 				</p>
 				<p>
@@ -97,7 +97,7 @@ contato com o Serviço de Atendimento ao Cliente para obter o passo a passo a se
 					a) Vale Troca para utilização em uma próxima compra, incluindo o valor do frete, caso tenha sido cobrado;
 				</p>
 				<p>
-					b) Troca por outro produto disponível na Space Cell, do mesmo valor do produto adquirido, incluindo o frete, caso tenha sido cobrado;
+					b) Troca por outro produto disponível na Micro Shopping, do mesmo valor do produto adquirido, incluindo o frete, caso tenha sido cobrado;
 				</p>
 				<p>
 					c) Restituição do valor do produto, incluindo o valor pago pelo frete.
@@ -117,20 +117,20 @@ devolução não será possível.
 					4.3. Os produtos deverão ser enviados em suas embalagens originais com todos os manuais e acessórios.
 				</p>
 				<p>
-					4.4. Constatado o cancelamento da compra, a Space Cell adotará as providências e os valores serão restituídos ao Cliente de acordo com o meio de pagamento 
+					4.4. Constatado o cancelamento da compra, a Micro Shopping adotará as providências e os valores serão restituídos ao Cliente de acordo com o meio de pagamento 
 utilizado para realização da compra: sendo (i) depósito em conta corrente, no prazo de até 5 (cinco) dias úteis, ou (ii) acionamento da administradora de cartão de 
 crédito, no prazo de 2 (dois) dias úteis, para que ela comunique a instituição financeira responsável pelo crédito (estorno) que poderá ocorrer em até duas faturas 
 subsequentes, conforme a data de fechamento da fatura de cartão de crédito.
 				</p>
 				<p>
-					4.5. Os prazos só serão computados a partir da devolução do(s) produto(s) em um dos centros de distribuição da Space Cell, observados os critérios estabelecidos 
+					4.5. Os prazos só serão computados a partir da devolução do(s) produto(s) em um dos centros de distribuição da Micro Shopping, observados os critérios estabelecidos 
 no item 5, subitem 5.3.
 				</p><br><br>
 				<p>
 					<strong>5. Sobre a troca ou arrependimento da compra:</strong>
 				</p>
 				<p>
-					5.1. Toda devolução ou troca de produtos comercializados pela Space Cell deverá ser comunicada à Central de Atendimento, antes do reenvio dos produtos ao 
+					5.1. Toda devolução ou troca de produtos comercializados pela Micro Shopping deverá ser comunicada à Central de Atendimento, antes do reenvio dos produtos ao 
 nosso Centro de Distribuição.
 				</p>
 				<p>
@@ -149,15 +149,15 @@ nosso Centro de Distribuição.
 					d) Acompanhado da 1ª via da Nota Fiscal de Venda ou DANFE (Documento Auxiliar de Nota Fiscal Eletrônica), conforme o caso.
 				</p>
 				<p>
-					5.3. A Space Cell somente efetuará a troca de produtos após a confirmação, em nosso Centro de Distribuição, de que o produto está apto para a substituição. 
+					5.3. A Micro Shopping somente efetuará a troca de produtos após a confirmação, em nosso Centro de Distribuição, de que o produto está apto para a substituição. 
 Esse processo pode levar até 5 (cinco) dias úteis a contar do recebimento da mercadoria em questão no Centro de Distribuição.
 				</p>
 				<p>
-					5.4. Ao solicitar um procedimento de troca ou arrependimento de compra, a Space Cell informará um código de autorização de postagem, com as devidas
+					5.4. Ao solicitar um procedimento de troca ou arrependimento de compra, a Micro Shopping informará um código de autorização de postagem, com as devidas
 instruções de envio da mercadoria ou a data prevista para coleta do produto.
 				</p>
 				<p>
-					5.5. Caso esse procedimento não seja bem sucedido pelas razões abaixo, a Central de Atendimento da Space Cell entrará em contato com o Cliente para 
+					5.5. Caso esse procedimento não seja bem sucedido pelas razões abaixo, a Central de Atendimento da Micro Shopping entrará em contato com o Cliente para 
 solucionar a situação:
 				</p>
 				<p>
@@ -179,15 +179,15 @@ solucionar a situação:
 					Caso tenha qualquer dúvida em relação à Política de entrega, troca e devolução de produtos, entre em contato pelos seguintes canais:
 				</p>
 				<p>
-					a) pelos telefones (011) XXXX-XXXX, de segunda a sexta das 10h às 18h.
+					a) pelos telefones (011) 94753-1145, de segunda a sexta das 09h às 18h.
 				</p>
 				<p>
-					c) via e-mail, contato@spacecell.com.br, com o assunto "Troca e Devolução".
+					c) via e-mail, contato@microshopping.com.br, com o assunto "Troca e Devolução".
 				</p><br><br>
 				<p>
-					Atualização: Março de 2016. <br>
+					Atualização: Outubro de 2017.<br>
 					JURÍDICO E-COMMERCE  <br>
-					SPACE CELL					
+					MICRO SHOPPING SANTA IFIGÊNIA
 				</p>
 			</div>
 		</div>	

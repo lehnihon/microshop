@@ -36,7 +36,7 @@ get_header( 'shop' ); ?>
 
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 	<div class="row">
-		<div class="col-md-offset-3">		
+		<div class="col-md-offset-3">
 			<h1><?php woocommerce_page_title(); ?></h1>
 		</div>
 	</div>
@@ -62,8 +62,8 @@ get_header( 'shop' ); ?>
 			<div class="filtro">
 				<?php dynamic_sidebar( 'sidebar' ); ?>
 			</div>
-			
-		</div>	
+
+		</div>
 		<div class="col-md-9">
 			<?php if ( have_posts() ) : ?>
 
